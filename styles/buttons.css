@@ -1,0 +1,43 @@
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+button.panel-button {
+    gap: 6px;
+    border-radius: 5px;
+    padding: 6px;
+    
+    background-color: var(--color-primary-variant);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+button.panel-button > img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7475%) hue-rotate(261deg) brightness(109%) contrast(108%);
+}
+
+button.panel-button:active {
+    transform: translate(-1px, 1px);
+}
+
+button.action-icon {
+    aspect-ratio: 1/1;
+}
+
+button.action-icon > img {
+    width: 100%;
+    transition: width 0.5s ease-in-out;
+}
+
+button.action-icon:hover > img {
+    transform: scale(115%);
+}
+
+button.action-icon:active > img {
+    transform: scale(105%);
+}

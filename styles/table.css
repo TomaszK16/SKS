@@ -1,0 +1,57 @@
+table {
+    width: 1050px;
+}
+
+th {
+    font-family: var(--font-header);
+    font-weight: 500;
+    text-align: left;
+    color: var(--color-primary-variant);
+}
+
+td {
+    color: var(--color-font);
+    font-weight: 400;
+    font-size: 120%;
+    height: 50px;
+}
+
+th, td {
+    width: 100px;
+    text-align: center;
+}
+
+tr {
+    width: 50px;
+}
+
+tr > *:nth-of-type(1) {
+    width: 65px;
+}
+
+tr > *:nth-of-type(2) {
+    width: 700px;
+    text-align: left;
+}
+
+tr > *:nth-of-type(4) {
+    width: 150px;
+}
+
+.no-players {
+    flex: 1;
+    width: 1050px;
+
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 4rem;
+}
+
+.no-players > h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
