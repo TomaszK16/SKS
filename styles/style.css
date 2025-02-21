@@ -30,10 +30,14 @@ button > img {
     width: 100%;
 }
 
+button:hover > img {
+    width: 103%;
+}
+
 button:active > img {
     transform: translate(-1px, 1px);
-    width: 102%;
 }
+
 
 body {
     background-color: var(--color-background);
@@ -66,6 +70,9 @@ table {
     margin: auto;
 }
 
+tr {
+    height: 50px;
+}
 
 th {
     font-family: var(--font-header);
@@ -117,7 +124,7 @@ tr > *:nth-of-type(7)
     justify-content: center;
     align-items: center;
 
-    font-size: 120%;
+    font-size: 110%;
 }
 
 

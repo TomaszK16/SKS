@@ -33,7 +33,6 @@
                 <th>WZROST</th>
             </tr>
             <?php require 'scripts/get_rows.php';?>
-            
         </table>
     </main>
 
