@@ -2,13 +2,14 @@
 
 :root {
     --color-background: #1f2f3f;
+    --color-table: #223447;
     --color-dark: #0c243b;
     --color-light: #afcbe5;
 
     --font-header: Poppins;
     --font-normal: Poppins;
 
-    --radius: 5px;
+    --radius: 15px;
 }
 
 * {
@@ -66,8 +67,10 @@ main {
 
 table {
     border-radius: 0 0 var(--radius) var(--radius);
-    padding: 8px;
+    padding: 16px;
     margin: auto;
+
+    background-color: var(--color-table);
 }
 
 tr {
