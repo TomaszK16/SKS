@@ -1,5 +1,6 @@
 <?php
     require '../init.php';
+    require 'form.php';
 
     $player = get_form_data(["id", "name", "surname", "grade", "birth_year", "height"]);
 

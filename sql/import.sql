@@ -1,0 +1,16 @@
+INSERT INTO zawodnicy(id, imie, nazwisko, klasa, rok_urodzenia, wzrost) VALUES
+(NULL, 'Adam', 'Jankowski', 1, 2009, 142),
+(NULL, 'Monika', 'Mazur', 2, 2008, 148),
+(NULL, 'Anna', 'Nowak', 2, 2008, 145),
+(NULL, 'Marek', 'Lewandowski', 5, 2005, 170),
+(NULL, 'Łukasz', 'Kwiatkowski', 3, 2007, 152),
+(NULL, 'Katarzyna', 'Dąbrowska', 4, 2006, 160),
+(NULL, 'Jan', 'Kowalski', 1, 2009, 140),
+(NULL, 'Agnieszka', 'Zielińska', 3, 2007, 153),
+(NULL, 'Ewa', 'Wójcik', 1, 2009, 138),
+(NULL, 'Mateusz', 'Szymański', 4, 2006, 165),
+(NULL, 'Piotr', 'Wiśniewski', 3, 2007, 150),
+(NULL, 'Paulina', 'Piotrowska', 4, 2006, 162),
+(NULL, 'Kamil', 'Grabowski', 5, 2005, 178),
+(NULL, 'Tomasz', 'Kamiński', 2, 2008, 147),
+(NULL, 'Barbara', 'Woźniak', 5, 2005, 175);

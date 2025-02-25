@@ -22,6 +22,10 @@
     font-family: var(--font-normal);
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     background-color: var(--color-background);
     color: var(--color-primary-variant);
